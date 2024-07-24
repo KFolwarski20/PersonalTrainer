@@ -1,0 +1,234 @@
+<!DOCTYPE html> 
+<html lang="pl"> 
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" media="screen" type="text/css" href="styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
+        <title>PRO-FIT</title> 
+    </head> 
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"/></a>
+                </div>
+                <h1 class="header-text">&#9733; PRO-FIT &#9733; Trener Personalny dla Twojego sukcesu!</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                  <li><a href="#zakres-uslug">Zakres usług</a></li>
+                  <li><a href="#o-mnie">O mnie</a></li>
+                  <li><a href="#cennik">Cennik</a></li>
+                  <li><a href="#opinie">Opinie</a></li>
+                  <li><a href="#kontakt">Kontakt</a></li>
+                  <li class="slider"></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="scroll-to-top">
+            <a href="#top">↑ Menu </a>
+        </div>
+        <script src="scripts/menuButton.js"></script>
+
+        <section id="zakres-uslug">
+            <h2>Zakres Usług</h2>
+            
+            <div class="opis-uslug">
+                <img src="images/plan_treningowy.jpg" alt="Plany Treningowe">
+                <div>
+                    <h3>Plany Treningowe i Zmiany Podstaw Żywieniowych</h3>
+                    <p>Dostosowane plany treningowe, które nie tylko pomogą Ci osiągnąć cele fitness, ale także zdrowe zmiany w stylu życia poprzez odpowiednią dietę.</p>
+                </div>
+            </div>
+        
+            <div class="opis-uslug">
+                <img src="images/trening_personalny_indywidualny.jpg" alt="Trening Indywidualny">
+                <div>
+                    <h3>Trening Personalny Indywidualny</h3>
+                    <p>Indywidualnie dostosowany trening, obejmujący cardio, trening motoryczny i siłowy, aby zapewnić Ci kompleksową opiekę nad Twoim ciałem i zdrowiem.</p>
+                </div>
+            </div>
+        
+            <div class="opis-uslug">
+                <img src="images/trening_personalny_grupowy.jpg" alt="Trening Grupowy">
+                <div>
+                    <h3>Trening Personalny Grupowy</h3>
+                    <p>Wspólne treningi w grupie, które nie tylko dostarczają motywacji, ale również budują silne więzi i przyjaźnie wśród uczestników.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="o-mnie">
+            <h2>O Mnie</h2>
+            <div class="opis-mnie">
+                <div class="opis-mnie-lewy">
+                    <img src="images/o_mnie.jpg" alt="Damian Folwarski">
+                </div>
+                <div class="opis-mnie-prawy">
+                    <p>
+                        Cześć nazywam się Damian Folwarski, mam 20 lat i z przyjemnością pomogę Ci odmienić swoje życie. 
+                        Od około 5 lat pasjonuję się siłownią. Zbierając doświadczenie, w 2023 roku postanowiłem zrobić kursy trenera personalnego i spróbować swych sił w pracy z ludźmi. 
+                        Na co dzień jestem studentem Farmacji, dlatego ciało ludzkie i metabolizm jest mi doskonale znane, co jest podstawą chociażby odpowiednio dobranej suplementacji. 
+                        Serdecznie zapraszam do współpracy w okolicach Katowic.
+                    </p>
+                    <button class="zacznij-dzis-button" onclick="window.location.href='#kontakt'">Zacznij już dziś!</button>
+                </div>
+            </div>
+            <script src="scripts/otworzZdjecie.js"></script>
+            <div class="certyfikaty">
+                <h2>Certyfikaty:</h2>
+                <div class="zdjecia-certyfikatow">
+                    <img src="images/CERTYFIKAT-1.jpg" alt="Instruktor siłowni" onclick="openImage(this)">
+                    <img src="images/CERTYFIKAT-3.jpg" alt="Redukcja masy ciała" onclick="openImage(this)">
+                    <img src="images/CERTYFIKAT-4.jpg" alt="Poprawne techniki ćwiczeń" onclick="openImage(this)">
+                    <img src="images/CERTYFIKAT-2.jpg" alt="Trener personalny" onclick="openImage(this)">
+                </div>
+            </div>
+            <div class="co-nas-wyroznia">
+                <h2 style="color: rgb(0, 0, 0);">Co nas wyróżnia?</h2>
+                <div class="element-wyrozniajacy">
+                    <img src="images/profesjonalizm.jpg" alt="Profesjonalizm">
+                    <div>
+                        <h3>Pełen profesjonalizm w podejściu do klienta</h3>
+                        <p>
+                            Moje usługi charakteryzują się pełnym profesjonalizmem od początku do końca. 
+                            Rozpoczynam od szczegółowego wstępnego wywiadu, który umożliwia mi lepsze zrozumienie Twoich celów i potrzeb. 
+                            Dodatkowo, przeprowadzam dokładną ocenę sylwetkową, co pozwala mi dostosować plan treningowy do Twoich indywidualnych wymagań.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="element-wyrozniajacy">
+                    <img src="images/aplikacja.jpg" alt="Aplikacja">
+                    <div>
+                        <h3>Aplikacja do monitorowania swoich postępów</h3>
+                        <p>
+                            Dedykowana aplikacja umożliwia Ci śledzenie postępów bez konieczności prowadzenia zeszytu. 
+                            Dzięki intuicyjnemu interfejsowi, możesz łatwo monitorować zarówno treningi, jak i osiągnięcia, 
+                            co pozwala mi skutecznie dostosować plan treningowy w miarę potrzeb.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="element-wyrozniajacy">
+                    <img src="images/elastycznosc.jpg" alt="Elastyczność">
+                    <div>
+                        <h3>Elastyczność godzinowa treningów personalnych</h3>
+                        <p>
+                            Zależy mi na dostosowaniu moich usług do Twojego harmonogramu życia. 
+                            Elastyczność godzinowa oznacza, że jesteśmy w stałym kontakcie na bieżąco, umożliwiając Ci kontakt ze mną w dogodnych dla Ciebie terminach. 
+                            To zapewnia pełną dostępność moich usług, które są zawsze dostosowane do Twoich potrzeb i zmieniającego się grafiku.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="cennik">
+            <h2>Cennik</h2>
+            <p>Sprawdź atrakcyjne ceny i usługi dostosowane do Twoich potrzeb.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usługa</th>
+                        <th>Czas trwania</th>
+                        <th>Cena</th>
+                        <th>Opis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Plan treningowy</td>
+                        <td>bez limitu</td>
+                        <td>89.99 zł</td>
+                        <td>Kompleksowy plan trenigowy</td>
+                    </tr>
+                    <tr>
+                        <td>Plan treningowy + suplementacja</td>
+                        <td>bez limitu</td>
+                        <td>109.99 zł</td>
+                        <td>Kompleksowy plan treningowy wraz z suplementacją</td>
+                    </tr>
+                    <tr>
+                        <td>Trening indywidualny</td>
+                        <td>1 godzina</td>
+                        <td>79.99 zł</td>
+                        <td>Godzina treningu indywidualnego z trenerem personalnym</td>
+                    </tr>
+                    <tr>
+                        <td>Trening grupowy (osoba)</td>
+                        <td>1 godzina</td>
+                        <td>59.99 zł</td>
+                        <td>Godzina treningu grupowego z trenerem personalnym</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="opinie">
+            <h2>Opinie</h2>
+            
+            <div id="dodaj-opinie-container">
+                <p>Twój głos jest ważny! Przekaż swoją opinię i pomóż mi się rozwijać.</p>
+                <button id="dodaj-opinie-button">Dodaj opinię</button>
+            </div>
+            
+            <div id="formularz-opinii" style="display: none;" class="formularz-opinii">
+                <form id="formularz" action="process_opinia.php" method="post">
+                    <label for="imie">Imię:</label>
+                    <input type="text" id="imie" name="imie" required>
+                
+                    <label for="ocena">Ocena:</label>
+                    <select id="ocena" name="ocena" required>
+                        <option value="1">&#9733;</option>
+                        <option value="2">&#9733; &#9733;</option>
+                        <option value="3">&#9733; &#9733; &#9733;</option>
+                        <option value="4">&#9733; &#9733; &#9733; &#9733;</option>
+                        <option value="5">&#9733; &#9733; &#9733; &#9733; &#9733;</option>
+                    </select>
+                
+                    <label for="opinia">Opinia:</label>
+                    <textarea id="opinia" name="opinia" rows="4" required></textarea>
+                
+                    <input type="submit" value="Zatwierdź">
+                </form>
+            </div>
+            <div id="opinie-container"></div>
+            <script src="scripts/dodajOpinie.js"></script>
+        </section>
+    
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Skontaktuj się ze mną, aby umówić się na trening lub uzyskać więcej informacji.</p>
+
+            <form action="scripts/process_form.php" method="post">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <input type="submit" value="Wyślij">
+            </form>
+        </section>
+
+        <footer>
+            <div class="map-container">
+                <div class="address-container">
+                    <p class="address-item">&#9733; PRO-FIT &#9733;</p>
+                    <p class="address-item">Sosnowiec ul. Legionów 13A, 41-200</p>
+                    <a class="address-item" href="tel:697-734-927">697-734-927</a>
+                    <a class="address-item" href="mailto:damianqw@pro-fit.com.pl">damianqw@pro-fit.com.pl</a>
+                </div>
+                <iframe src="https://maps.google.com/maps?q=SosnowiecLegionow13A&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes"></iframe>
+            </div>
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-a686b2cb-36fd-4e6f-8ab1-e4e3df1802cc" data-elfsight-app-lazy></div>
+            <p>Copyright © 2024. Wszelkie prawa zastrzeżone.</p>
+        </footer>
+    </body> 
+</html>
